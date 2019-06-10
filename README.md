@@ -1,3 +1,6 @@
+### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
+![](static/followme.png)
+
 <h1 align="center">第六屆 PIXNET HACKATHON</h1>
 <h2 align="center">Taiwan Browser 翻轉在地體驗</h2>
 <h3 align="center"><a href="https://lihi.cc/06nzQ/github">報名頁面</a></h3>
