@@ -7,7 +7,7 @@
 
 ## 活動網址
 
-https://pixnethackathon2019.events.pixnet.net/
+官網近期上線
 
 ## 活動簡介
 
