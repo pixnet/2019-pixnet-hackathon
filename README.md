@@ -1,3 +1,4 @@
+### HERE! 搶鮮體驗 [API](./api/README.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
 ![](static/followme.png)
 
