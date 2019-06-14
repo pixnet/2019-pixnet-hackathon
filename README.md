@@ -1,4 +1,5 @@
 ### HERE! 搶鮮體驗 [API](./api/README.md)
+### HERE! 搶鮮觀看 [Raw Data 資料格式](./data/README.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
 ![](static/followme.png)
 
