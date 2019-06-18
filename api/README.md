@@ -11,6 +11,7 @@
 | 相關關鍵字 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerKeywords) | [範例](https://emma.pixnet.cc/explorer/keywords?format=json&key=EMMA) |
 | 標籤關注 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/tagFollow) | [範例](https://emma.pixnet.cc/tag/follow?name=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | POI 清單 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/poiList) | [範例](https://emma.pixnet.cc/poi?format=json) |
+| 自動補齊 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerAutocomplete) | [範例](https://emma.pixnet.cc/explorer/autocomplete?format=json&key=%E7%97%9E%E5%AE%A2) |
 
 ### 使用情境教學
 
@@ -24,9 +25,9 @@
 | 與 _台東熱氣球_ 相關的標籤 | [相關關鍵字](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerKeywords) | `key=台東熱氣球` | [範例](https://emma.pixnet.cc/explorer/keywords?format=json&key=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | _台東熱氣球_ 有多少人關注 | [標籤關注](https://developer.pixnet.pro/#!/doc/pixnetApi/tagFollow) | `name=台東熱氣球` | [範例](https://emma.pixnet.cc/tag/follow?format=json&name=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | 找找 _台東鹿野_ 附近的店家 | [POI 清單](https://developer.pixnet.pro/#!/doc/pixnetApi/poiList) | `city=台東縣`<br>`town=鹿野鄉` | [範例](https://emma.pixnet.cc/poi?format=json&city=%E5%8F%B0%E6%9D%B1%E7%B8%A3&town=%E9%B9%BF%E9%87%8E%E9%84%89) |
+| 找找 _台東熱氣球_ 還有可能的延伸 | [自動補齊](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerAutocomplete) | `key=台東熱氣球` | [範例](https://emma.pixnet.cc/explorer/autocomplete?format=json&key=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 
 ### 再給我幾天 API
 
 | API 名稱 | 說明 |
 | - | - |
-| 自動補齊 | 補齊期望內容， Ex: `台 = [台東, 台灣, 台北]` |
