@@ -5,5 +5,7 @@ __pycache__
 .vscode/
 [uU]ntitled*
 *.pdf
+*.swp
+*.swo
 temp/
 test/
