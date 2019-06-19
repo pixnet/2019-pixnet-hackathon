@@ -1,5 +1,4 @@
-### HERE! 搶鮮體驗 [API](./api/README.md)
-### HERE! 搶鮮觀看 [Raw Data 資料格式](./data/README.md)
+### HERE! 新增 [競賽資源專區](./RESOURCE.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
 ![](static/followme.png)
 
@@ -90,6 +89,8 @@ PIXNET 每年黑客松賽事不僅呼應最新科技趨勢，也重視技術的�
 
 ![](https://t.kfs.io/organization_resource_files/344/28803/_____2019-06-06___1.03.29.png)
 
+### 競賽資源
+[競賽資源專區](./RESOURCE.md)
 
 ### 注意事項
 
