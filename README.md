@@ -1,6 +1,6 @@
 ### 想報名 but 缺咖嗎？ 快進來組隊 👉 [組隊大平台](https://lihi1.cc/af7aW/github)
+### HERE! 新增 [競賽資源專區](./RESOURCE.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
-![](static/followme.png)
 
 <h1 align="center"><img width="40px" src="static/logo.png"/><a href="https://lihi.cc/06nzQ/github">第六屆 PIXNET HACKATHON</a></h1>
 <h2 align="center">Taiwan Browser 翻轉在地體驗</h2>
@@ -137,3 +137,4 @@ PIXNET 每年黑客松賽事不僅呼應最新科技趨勢，也重視技術的�
     d. 參賽者就其個人資料依個人資料保護法第三條之規定，請求停止蒐集、處理或利用或請求刪除前，主辦單位得依循個人資料保護法及相關法令之規定，於個人資料提供之範圍與目的內使用該等個人資料。
 
 <h3 align="center"><a href="https://lihi.cc/06nzQ/github">報名頁面 🏃</a></h3>
+![](static/followme.png)
