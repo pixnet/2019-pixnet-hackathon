@@ -90,7 +90,7 @@ PIXNET 每年黑客松賽事不僅呼應最新科技趨勢，也重視技術的�
 ![](https://t.kfs.io/organization_resource_files/344/28803/_____2019-06-06___1.03.29.png)
 
 ### 競賽資源
-[競賽資源專區](./RESOURCE.md)
+#### [競賽資源專區](./RESOURCE.md)
 
 ### 注意事項
 
