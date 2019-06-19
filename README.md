@@ -1,4 +1,7 @@
+### 想報名 but 缺咖嗎？ 快進來組隊 👉 [組隊大平台](https://lihi1.cc/af7aW/github)
 ### HERE! 新增 [競賽資源專區](./RESOURCE.md)
+### HERE! 搶鮮體驗 [API](./api/README.md)
+### HERE! 搶鮮觀看 [Raw Data 資料格式](./data/README.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
 ![](static/followme.png)
 
