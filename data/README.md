@@ -1,4 +1,18 @@
-## Raw Data 懶人包
+# Raw Data 懶人包
+
+### 資料範例
+```json
+{
+  "hits":10,
+  "keyword_top10":[{"tfidf":0.27377,"word":"臺中"}],
+  "title":"[好-遊記] 臺中港區藝術中心",
+  "post_at":1519060234,
+  "site_category":"國外旅遊",
+  "content":"臺中港區藝術中心就在清水眷村文化園區的隔壁",
+  "url":"http://travelmap.pixnet.net/blog/post/462208709",
+  "tags":["清水","藝術中心","狗年","臺中","台中","港區藝術中心"]
+}
+```
 
 ### PIXNET 文章資料
 
