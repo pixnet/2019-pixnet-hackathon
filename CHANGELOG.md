@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2019-06-21` | Provide similarimages api
 `2019-06-19` | Add resource zone information, merge PIXNET/HotelsCombined data/API, and opendata/API
 `2019-06-18` | Provide autocomplete api
 `2019-06-18` | Provide poi list api
