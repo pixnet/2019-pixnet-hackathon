@@ -1,5 +1,8 @@
+2019/7/12（五）主辦單位寄發的初賽資格錄取通知 email 中，將提供參賽隊伍本屆資料包下載連結。
+
 # Raw Data 懶人包
 
+## PIXNET 文章資料
 ### 資料範例
 ```json
 {
@@ -13,9 +16,7 @@
   "tags":["清水","藝術中心","狗年","臺中","台中","港區藝術中心"]
 }
 ```
-
-### PIXNET 文章資料
-
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | tags | 作者對此篇文章下的標籤 | ["raw","台北","江振誠"] |
@@ -29,8 +30,9 @@
 | url | 文章網址 | http://selenakuo.pixnet.net/blog/post/44297773 |
 | keyword_top10 | 前10個文章概要關鍵字(tf-idf分數由高到低排序) | [{"tfidf":100.04224,"word":"冰淇淋"},{"tfidf":100.03201,"word":"三星"}, ...(後略)] |
 
-### 使用者瀏覽 log
+## 使用者瀏覽 log
 
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | url | 網頁網址 | http://red11115.pixnet.net/blog/post/43706497 |
@@ -56,8 +58,9 @@
 | cookie_age | 預測年齡分類，包含："18-25", "25-35", "35-45", "45-65", "不明" | 25-35 |
 | referrer_url | 瀏覽者來源網址 | http://ya1101.pixnet.net/blog/post/171256641 |
 
-### 使用者點擊 log
+## 使用者點擊 log
 
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | page | 點擊時當前頁面網址 | https://hotel.eztravel.com.tw/domestic/introduction/HTLI000000297?checkIn=20190529&checkOut=20190530 |
@@ -82,8 +85,9 @@
 | author_id | 文章作者帳號 | anrine910070 |
 | referrer_url | 點擊者來源網址 | https://hotel.eztravel.com.tw/domestic/results/TP1/001654 |
 
-### Google Search 關鍵字 log
+## Google Search 關鍵字 log
 
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | author_id | 文章作者帳號 | rex850467 |
@@ -98,9 +102,10 @@
 | date | 瀏覽日期 yyyymmdd | 20190324 |
 | category | 文章分類 | 國內旅遊 |
 
-### HotelsCombined 導流 log - PIXNET 點擊 logs
+## HotelsCombined 導流 log - PIXNET 點擊 logs
 > 這份與下份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | url | 點擊時導流頁面的網址 | https://www.hotelscombined.com.tw/Hotel/Anho_Hotel.htm |
@@ -124,9 +129,10 @@
 | label | 點擊導流頁面地點/飯店名稱 | {"Breadcrumb":["Anho_Hotel"]} |
 | referrer_url | 點擊者來源網址 | https://www.hotelscombined.com.tw/Place/Yilan_County.htm |
 
-### HotelsCombined 導流 log - HotelsCombined 訂單數量資料
+## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
 > 這份與上份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
+### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
 | Label | Hashed 過的使用者cookie::導流板位 | 9242a733685e9610bd0be49462612491::Zone1::1200 |
