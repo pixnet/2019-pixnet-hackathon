@@ -1,6 +1,13 @@
 2019/7/12（五）主辦單位寄發的初賽資格錄取通知 email 中，將提供參賽隊伍本屆資料包下載連結。
 
 # Raw Data 懶人包
+## 總覽
+- [PIXNET 文章資料](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#pixnet-%E6%96%87%E7%AB%A0%E8%B3%87%E6%96%99)
+- [使用者瀏覽log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#%E4%BD%BF%E7%94%A8%E8%80%85%E7%80%8F%E8%A6%BD-log)
+- [使用者點擊log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#%E4%BD%BF%E7%94%A8%E8%80%85%E9%BB%9E%E6%93%8A-log)
+- [Google Search 關鍵字log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#google-search-%E9%97%9C%E9%8D%B5%E5%AD%97-log)
+- [HotelsCombined 導流 log - PIXNET 點擊 logs](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---pixnet-%E9%BB%9E%E6%93%8A-logs)
+- [HotelsCombined 導流 log - HotelsCombined 訂單數量資料](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---hotelscombined-%E8%A8%82%E5%96%AE%E6%95%B8%E9%87%8F%E8%B3%87%E6%96%99)
 
 ## PIXNET 文章資料
 ### 資料範例
