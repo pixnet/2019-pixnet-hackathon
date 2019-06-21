@@ -1,3 +1,5 @@
+👉 隨時都可以使用
+
 ## API 懶人包
 ### [PIXNET API 首頁](https://developer.pixnet.pro/#!/)
 > 使用前請先閱讀 [注意事項](http://developer.pixnet.pro/#!/doc/pixnetApiTos/pixnetApiTos)
