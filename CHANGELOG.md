@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2019-06-21` | Update awards related information
 `2019-06-21` | Add PIXNET data summary, and sample for PIXNET blog articles
 `2019-06-21` | Provide similarimages api
 `2019-06-19` | Add resource zone information, merge PIXNET/HotelsCombined data/API, and opendata/API
