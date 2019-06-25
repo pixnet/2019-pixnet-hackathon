@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2019-06-25` | Provide gourmet emotion api
 `2019-06-25` | Add Articut resource information
 `2019-06-21` | Create api example command app
 `2019-06-21` | Update awards related information
