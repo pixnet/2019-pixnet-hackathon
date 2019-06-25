@@ -38,7 +38,33 @@
 | keyword_top10 | 前10個文章概要關鍵字(tf-idf分數由高到低排序) | [{"tfidf":100.04224,"word":"冰淇淋"},{"tfidf":100.03201,"word":"三星"}, ...(後略)] |
 
 ## 使用者瀏覽 log
-
+###資料範例
+```json
+{
+  "url": "https://wowline.pixnet.net/blog/post/93867959",
+  "country": "TW",
+  "city": "Taipei",
+  "resolution": "414x736",
+  "browser": "Mobile Safari",
+  "browser_version": "12.1.1",
+  "os": "iOS",
+  "os_version": "12.3.2",
+  "device_model": "iPhone",
+  "device_marketing": "iPhone",
+  "device_brand": "Apple",
+  "cookie_hash": "udr3pZNgk/uqjJc0OXzjZA==",
+  "referrer_host": "www.google.com.tw",
+  "date": "20190625",
+  "timestamp": "1561430320",
+  "hour": "10",
+  "author_id": "wowline",
+  "category_id": "生活綜合",
+  "referrer_venue": "google",
+  "cookie_gender": "男",
+  "cookie_age": "不明",
+  "referrer_url": "https://www.google.com.tw"
+}
+```
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
@@ -93,7 +119,22 @@
 | referrer_url | 點擊者來源網址 | https://hotel.eztravel.com.tw/domestic/results/TP1/001654 |
 
 ## Google Search 關鍵字 log
-
+###資料範例
+```json
+{
+  "author_id": "ifitnessgo",
+  "clicks": "1",
+  "ctr": "0.5",
+  "impressions": "2",
+  "position": "1.0",
+  "keyword": "單槓拉不上去",
+  "url": "http://ifitnessgo.pixnet.net/blog/post/13781005",
+  "country": "twn",
+  "device": "DESKTOP",
+  "date": "20190619",
+  "category": "運動體育"
+}
+```
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
@@ -109,36 +150,71 @@
 | date | 瀏覽日期 yyyymmdd | 20190324 |
 | category | 文章分類 | 國內旅遊 |
 
-## HotelsCombined 導流 log - PIXNET 點擊 logs
+## HotelsCombined 導流 log - PIXNET 瀏覽 logs
 > 這份與下份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
+###資料範例
+```json
+{
+  "url": "https://www.hotelscombined.com.tw/Hotel/Beitou_Sweet_Me_Hot_Spring_Resort.htm",
+  "country": "TW",
+  "city": "Taipei",
+  "resolution": "375x667",
+  "browser": "Chrome Mobile iOS",
+  "browser_version": "74.0.3729",
+  "os": "iOS",
+  "os_version": "12.1",
+  "device_model": "iPhone",
+  "device_marketing": "iPhone",
+  "device_brand": "Apple",
+  "cookie_hash": "a1DSch0mVHphDGRTbzV1bg==",
+  "referrer_host": "reika23.pixnet.net",
+  "date": "20190516",
+  "timestamp": "1558017926",
+  "hour": "22",
+  "cookie_gender": "女",
+  "cookie_age": "25-35",
+  "label": "{\"Breadcrumb\":[\"Beitou_Sweet_Me_Hot_Spring_Resort\"]}",
+  "referrer_url": "https://reika23.pixnet.net/blog/post/217685700"
+  }
+```
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| url | 點擊時導流頁面的網址 | https://www.hotelscombined.com.tw/Hotel/Anho_Hotel.htm |
-| country | 點擊者所在的國家 | TW |
-| city | 點擊者所在的城市 | Taipei |
-| resolution | 點擊者裝置圖像解析度 | 360x640 |
-| browser | 點擊者的瀏覽器 | Chrome Mobile |
-| browser_version | 點擊者的瀏覽器版本 | 73.0.3683 |
-| os | 點擊者的作業系統 | Android |
-| os_version | 點擊者的作業系統版本 | 5.0 |
-| device_model | 點擊者裝置名稱 | SM-N900 |
-| device_marketing | 點擊者裝置市場名稱 | GALAXY Note 3 |
-| device_brand | 點擊者裝置品牌名稱 | Samsung |
-| cookie_hash | 點擊者cookie(經hash處理) | 9242a733685e9610bd0be49462612491 |
-| referrer_host | 點擊者來源網站 | www.hotelscombined.com.tw |
-| date | 點擊日期 yyyymmdd | 20190327 |
-| timestamp | 點擊時間timestamp  | 1559082358 |
-| hour | 點擊時間(小時, UTC / GMT+8) | 3 |
+| url | 瀏覽時導流頁面的網址 | https://www.hotelscombined.com.tw/Hotel/Anho_Hotel.htm |
+| country | 瀏覽者所在的國家 | TW |
+| city | 瀏覽者所在的城市 | Taipei |
+| resolution | 瀏覽者裝置圖像解析度 | 360x640 |
+| browser | 溜覽者的瀏覽器 | Chrome Mobile |
+| browser_version | 瀏覽者的瀏覽器版本 | 73.0.3683 |
+| os | 瀏覽者的作業系統 | Android |
+| os_version | 瀏覽者的作業系統版本 | 5.0 |
+| device_model | 瀏覽者裝置名稱 | SM-N900 |
+| device_marketing | 瀏覽者裝置市場名稱 | GALAXY Note 3 |
+| device_brand | 瀏覽者裝置品牌名稱 | Samsung |
+| cookie_hash | 瀏覽者cookie(經hash處理) | 9242a733685e9610bd0be49462612491 |
+| referrer_host | 瀏覽者來源網站 | www.hotelscombined.com.tw |
+| date | 瀏覽日期 yyyymmdd | 20190327 |
+| timestamp | 瀏覽時間timestamp  | 1559082358 |
+| hour | 瀏覽時間(小時, UTC / GMT+8) | 3 |
 | cookie_gender | 預測性別分類，包含："男", "女", "不明" | 男 |
 | cookie_age | 預測年齡分類，包含："18-25", "25-35", "35-45", "45-65", "不明" | 45-65 |
-| label | 點擊導流頁面地點/飯店名稱 | {"Breadcrumb":["Anho_Hotel"]} |
-| referrer_url | 點擊者來源網址 | https://www.hotelscombined.com.tw/Place/Yilan_County.htm |
+| label | 瀏覽導流頁面地點/飯店名稱 | {"Breadcrumb":["Anho_Hotel"]} |
+| referrer_url | 瀏覽者來源網址 | https://www.hotelscombined.com.tw/Place/Yilan_County.htm |
 
 ## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
 > 這份與上份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
+資料範例
+```json
+{
+"Label": "2019/4/2",
+"Visits": "MdjBU0d98pv72atTbexgKQ==::Zone3",
+"Searches": "3",
+"Clicks To OTAs": "6",
+"Bookings": "1"
+}
+```
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
