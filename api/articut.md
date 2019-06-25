@@ -7,5 +7,5 @@
 |   資源名稱  |               連結                                |
 | :--------: | ------------------------------------------------ |
 | API GitHub | [More](https://github.com/Droidtown/ArticutAPI)
-| API 文件    | [More](https://github.com/Droidtown/ArticutAPI)
-| FB 粉絲專頁  | [More](https://github.com/Droidtown/ArticutAPI)
+| API 文件    | [More](https://api.droidtown.co)
+| FB 粉絲專頁  | [More](https://www.facebook.com/Articut/)
