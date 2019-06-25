@@ -119,7 +119,7 @@
 | referrer_url | 點擊者來源網址 | https://hotel.eztravel.com.tw/domestic/results/TP1/001654 |
 
 ## Google Search 關鍵字 log
-###資料範例
+### 資料範例
 ```json
 {
   "author_id": "ifitnessgo",
@@ -153,7 +153,7 @@
 ## HotelsCombined 導流 log - PIXNET 瀏覽 logs
 > 這份與下份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
-###資料範例
+### 資料範例
 ```json
 {
   "url": "https://www.hotelscombined.com.tw/Hotel/Beitou_Sweet_Me_Hot_Spring_Resort.htm",
@@ -205,7 +205,7 @@
 ## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
 > 這份與上份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
 
-資料範例
+### 資料範例
 ```json
 {
 "Label": "2019/4/2",
