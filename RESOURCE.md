@@ -6,6 +6,7 @@
 1   | PIXNET API         |[More](./api/README.md)
 2   | PIXNET Dataset     |[More](./data/README.md)
 3   | HotelsCombined API |近期更新
+4   | 卓騰語言科技Articut斷詞引擎 | [More](./api/articut.md)
 
 # 開放資料/外部資源
 以下為一些可用資源<br>
