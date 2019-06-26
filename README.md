@@ -8,7 +8,7 @@
 
 ## 活動網址
 
-官網近期上線
+[活動頁面](https://lihi.cc/ge3Nh/github)
 
 ## 活動簡介
 
