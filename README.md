@@ -1,5 +1,5 @@
 ### 想報名 but 缺咖嗎？ 快進來組隊 👉 [組隊大平台](https://lihi1.cc/af7aW/github)
-### HERE! 新增 [競賽資源專區](./RESOURCE.md)
+### HERE! 新增 👉 [競賽資源專區](./RESOURCE.md)
 ### 關注以獲取更新訊息 [更新紀錄](./CHANGELOG.md)
 
 <h1 align="center"><img width="40px" src="static/logo.png"/><a href="https://lihi.cc/06nzQ/github">第六屆 PIXNET HACKATHON</a></h1>
