@@ -9,10 +9,17 @@
 | API 名稱 | 文件位置 | API 範例 |
 | - | - | - |
 | 文章搜尋 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/blogArticlesSearch) | [範例](https://emma.pixnet.cc/blog/articles/search?format=json&type=tag&key=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
-| 文章關鍵字 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/blogArticlesIdKeywords) | [範例](https://emma.pixnet.cc/blog/articles/46738528/keywords?format=json&user=admin) |
-| 相關關鍵字 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerKeywords) | [範例](https://emma.pixnet.cc/explorer/keywords?format=json&key=EMMA) |
 | 標籤關注 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/tagFollow) | [範例](https://emma.pixnet.cc/tag/follow?name=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | POI 清單 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/poiList) | [範例](https://emma.pixnet.cc/poi?format=json) |
+
+#### In Beta
+> 使用上有任何問題，歡迎來信 pixnethacker@pixnet.tw
+> 或是透過 Issue 回報，工程師會盡快處理喲！
+
+| API 名稱 | 文件位置 | API 範例 |
+| - | - | - |
+| 文章關鍵字 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/blogArticlesIdKeywords) | [範例](https://emma.pixnet.cc/blog/articles/46738528/keywords?format=json&user=admin) |
+| 相關關鍵字 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerKeywords) | [範例](https://emma.pixnet.cc/explorer/keywords?format=json&key=EMMA) |
 | 自動補齊 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerAutocomplete) | [範例](https://emma.pixnet.cc/explorer/autocomplete?format=json&key=%E7%97%9E%E5%AE%A2) |
 | 以圖搜圖文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerSimilarImages) | [範例](https://emma.pixnet.cc/explorer/similarimages?format=json&size=5&image_link=https://upload.wikimedia.org/wikipedia/zh/5/57/Pixnet_logo.png) |
 | 美食語句評價 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/explorerGourmetEmotion) | [範例](https://emma.pixnet.cc/explorer/gourmet/emotion?sentence=%E9%80%99%E4%B8%B2%E8%87%AD%E8%B1%86%E8%85%90%E6%88%91%E6%80%8E%E9%BA%BC%E7%9C%8B%E9%83%BD%E8%A6%BA%E5%BE%97%E4%B8%8D%E5%A4%AA%E5%A5%BD%E5%90%83) |
