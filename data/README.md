@@ -38,7 +38,7 @@
 | keyword_top10 | 前10個文章概要關鍵字(tf-idf分數由高到低排序) | [{"tfidf":100.04224,"word":"冰淇淋"},{"tfidf":100.03201,"word":"三星"}, ...(後略)] |
 
 ## 使用者瀏覽 log
-###資料範例
+### 資料範例
 ```json
 {
   "url": "https://wowline.pixnet.net/blog/post/93867959",
@@ -68,7 +68,7 @@
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| url | 網頁網址 | http://red11115.pixnet.net/blog/post/43706497 |
+| url | 當前瀏覽網頁網址 | http://red11115.pixnet.net/blog/post/43706497 |
 | country | 瀏覽者所在國家 | TW |
 | city | 瀏覽者所在城市 | Taipei |
 | resolution | 瀏覽者裝置圖像解析度 | 360x640 |
@@ -92,31 +92,55 @@
 | referrer_url | 瀏覽者來源網址 | http://ya1101.pixnet.net/blog/post/171256641 |
 
 ## 使用者點擊 log
-
+### 資料範例
+```json
+{
+  "url": "https://ayeah3713883.pixnet.net/blog/post/455036777",
+  "e_category": "blog-related-article",
+  "e_action": "imps",
+  "e_label": "相關文章1", 
+  "country": "TW",
+  "city": "Taipei",
+  "browser": "Chrome Mobile",
+  "browser_version": "59.0.3071",
+  "os": "Android",
+  "os_version": "6.0.1",
+  "device_model": "SAMSUNG SM-N910U",
+  "device_marketing": "GALAXY Note 4 LTE",
+  "device_brand": "Samsung",
+  "cookie_hash": "ny7TLAxGNlvFaiSb8gJKeA==",
+  "referrer_host": "",
+  "date": "20190526",
+  "hour": "0",
+  "timestamp": "1558801224",
+  "category_id": "圖文創作",
+  "author_id": "ayeah3713883",
+  "referrer_url": "https://www.google.com"
+}
+```
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| page | 點擊時當前頁面網址 | https://hotel.eztravel.com.tw/domestic/introduction/HTLI000000297?checkIn=20190529&checkOut=20190530 |
-| pos | 點擊位置 | sidebar |
-| link | 點擊的連結url | https://hotel.eztravel.com.tw/domestic/introduction/HTLI000000297?checkIn=20190529&checkOut=20190530#projectContent-12 |
-| link_content | 連結附帶的資訊（如超連結文字、<img tag.....等） | 房型資訊 |
+| url | 當前瀏覽頁面網址 | https://hotel.eztravel.com.tw/domestic/introduction/HTLI000000297?checkIn=20190529&checkOut=20190530 |
+| e_category | 點擊類別 | article_stay_time |
+| e_action | 點擊行為種類 | 離開頁面 |
+| e_label | 點擊行為標籤（如裝置類別、交易紀錄...等） | desktop |
 | country | 點擊者所在的國家 | TW |
 | city | 點擊者所在的城市 | Taichung |
 | browser | 點擊者的瀏覽器 | Chrome |
 | browser_version | 點擊者的瀏覽器版本 | 74.0.3729 |
-| os | 點擊者的作業系統 | Windows 7 |
+| os | 點擊者的作業系統 | Android |
 | os_version | 點擊者的作業系統版本 | 7.1.1 |
 | device_model | 點擊者裝置名稱 | ASUS T00G |
 | device_marketing | 點擊者裝置市場名稱 | ZenFone 6 |
 | device_brand | 點擊者裝置品牌名稱 | ASUS |
 | cookie_hash | 點擊者cookie(經hash處理) | 02435654d2149b2e49793bc91c7f4853 |
-| referrer_host | 點擊者來源網站 | hotel.eztravel.com.tw |
-| date | 點擊日期 yyyymmdd (UTC / GMT+8) | 20190528 |
-| hour | 點擊時間(小時, UTC / GMT+8) | 1 |
-| timestamp | 點擊時間timestamp  | 1558974948 |
-| category_id | 文章分類 | 5 |
-| author_id | 文章作者帳號 | anrine910070 |
-| referrer_url | 點擊者來源網址 | https://hotel.eztravel.com.tw/domestic/results/TP1/001654 |
+| date | 點擊日期 yyyymmdd (UTC / GMT+8) | 20190526 |
+| hour | 點擊時間(小時, UTC / GMT+8) | 4 |
+| timestamp | 點擊時間timestamp  | 1558817164 |
+| category_id | 文章分類 | 星座算命 |
+| author_id | 文章作者帳號 | ab0150009 |
+| referrer_url | 點擊者來源網址 | http://ab0150009.pixnet.net/blog/post/46740384 |
 
 ## Google Search 關鍵字 log
 ### 資料範例
@@ -218,7 +242,7 @@
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| Label | Hashed 過的使用者cookie::導流板位 | 9242a733685e9610bd0be49462612491::Zone1::1200 |
+| Label | Hashed 過的使用者cookie::導流板位 | 9242a733685e9610bd0be49462612491::Zone1|
 | Visits | 導流瀏覽數 | 7 |
 | Searches | 於HotelsCombined官網搜尋數 | 13 |
 | Click To OTAs | 連結至導流訂房網站(Online Travel Agent)點擊數 | 1 |
