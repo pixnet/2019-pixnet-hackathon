@@ -1,5 +1,6 @@
 Date         |Description
 -------------|:----------------------------
+`2019-07-03` | Adjust similarimages api and provide base64 search
 `2019-06-26` | Add official event site link
 `2019-06-25` | Add Articut Event Detection API sample
 `2019-06-25` | Provide gourmet category api
