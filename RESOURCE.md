@@ -6,7 +6,7 @@
 ----|:-------------------|:--------
 1   | PIXNET API         |[More](./api/README.md)
 2   | PIXNET Dataset     |[More](./data/README.md)
-3   | HotelsCombined API |API 文件即 key 將於7/12提供給具初賽資格的隊伍
+3   | HotelsCombined API |API 文件及 key 將於7/12提供給具初賽資格的隊伍
 4   | 卓騰語言科技Articut斷詞引擎 | [More](./api/articut.md)
 
 # 開放資料/外部資源
