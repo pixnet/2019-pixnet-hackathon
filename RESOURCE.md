@@ -1,12 +1,12 @@
 # 主辦/合作單位資源
 <p>👉 2019/7/12（五）主辦單位寄發的初賽資格錄取通知 email 中，將提供參賽隊伍本屆資料包下載連結。</p>
-<p>👉 此次提供給參賽者的HotelsCombined API為開發測試用途，不是Live API，所以查詢結果並非真實即時資訊，但可以無限制地使用。</p>
+<p>👉 此次提供的HotelsCombined API為開發測試用途，不是Live API，所以查詢結果並非真實即時資訊，但可無限使用。</p>
 
 序號 |資料名稱             |更多資訊
 ----|:-------------------|:--------
 1   | PIXNET API         |[More](./api/README.md)
 2   | PIXNET Dataset     |[More](./data/README.md)
-3   | HotelsCombined API |將於7/12提供給具初賽資格的隊伍
+3   | HotelsCombined API |API 文件即 key 將於7/12提供給具初賽資格的隊伍
 4   | 卓騰語言科技Articut斷詞引擎 | [More](./api/articut.md)
 
 # 開放資料/外部資源
