@@ -233,7 +233,7 @@
 "Date": "20190402",
 "cookie_hash": "MdjBU0d98pv72atTbexgKQ==",
 "zone": "Zone3",
-"Visit" "1",
+"Visit": "1",
 "Searches": "3",
 "Clicks To OTAs": "6",
 "Bookings": "1"
