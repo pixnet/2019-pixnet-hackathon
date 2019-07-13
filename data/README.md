@@ -175,7 +175,7 @@
 | category | 文章分類 | 國內旅遊 |
 
 ## HotelsCombined 導流 log - PIXNET 瀏覽 logs
-> 這份與下份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
+> 這份與下份資料資料透過 cookie_hash 來作為 key 串連。資料日期區間：2018/10/8 ~ 2019/7/1 
 
 ### 資料範例
 ```json
@@ -194,7 +194,6 @@
   "cookie_hash": "a1DSch0mVHphDGRTbzV1bg==",
   "referrer_host": "reika23.pixnet.net",
   "date": "20190516",
-  "timestamp": "1558017926",
   "hour": "22",
   "cookie_gender": "女",
   "cookie_age": "25-35",
@@ -219,7 +218,6 @@
 | cookie_hash | 瀏覽者cookie(經hash處理) | 9242a733685e9610bd0be49462612491 |
 | referrer_host | 瀏覽者來源網站 | www.hotelscombined.com.tw |
 | date | 瀏覽日期 yyyymmdd | 20190327 |
-| timestamp | 瀏覽時間timestamp  | 1559082358 |
 | hour | 瀏覽時間(小時, UTC / GMT+8) | 3 |
 | cookie_gender | 預測性別分類，包含："男", "女", "不明" | 男 |
 | cookie_age | 預測年齡分類，包含："18-25", "25-35", "35-45", "45-65", "不明" | 45-65 |
@@ -227,13 +225,14 @@
 | referrer_url | 瀏覽者來源網址 | https://www.hotelscombined.com.tw/Place/Yilan_County.htm |
 
 ## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
-> 這份與上份資料資料透過 cookie_hash 與 Label 中的 hashed cookie 來作為 key 串連
+> 這份與上份資料資料透過 cookie_hash 來作為 key 串連，兩者從2019年4月18日開始可串連。資料日期區間：2019/1/7 ~ 2019/7/9
 
 ### 資料範例
 ```json
 {
 "Label": "2019/4/2",
-"Visits": "MdjBU0d98pv72atTbexgKQ==::Zone3",
+"cookie_hash": "MdjBU0d98pv72atTbexgKQ==",
+"zone": "Zone3",
 "Searches": "3",
 "Clicks To OTAs": "6",
 "Bookings": "1"
@@ -242,8 +241,9 @@
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| Label | Hashed 過的使用者cookie::導流板位 | 9242a733685e9610bd0be49462612491::Zone1|
+| cookie_hash | Hashed 過的使用者cookie | MdjBU0d98pv72atTbexgKQ== |
 | Visits | 導流瀏覽數 | 7 |
+| zone | 導流板位| 3種導流版位樣式編號 | Zone3 |
 | Searches | 於HotelsCombined官網搜尋數 | 13 |
 | Click To OTAs | 連結至導流訂房網站(Online Travel Agent)點擊數 | 1 |
 | Bookings | 於訂房網站的下訂數 | 1 |
