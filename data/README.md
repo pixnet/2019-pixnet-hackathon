@@ -244,7 +244,7 @@
 | - | - | - |
 | Date | 導流日期 yyyymmdd | 20190205 |
 | cookie_hash | Hashed 過的使用者cookie | MdjBU0d98pv72atTbexgKQ== |
-| zone | 導流板位| 3種導流版位樣式編號 | Zone3 |
+| zone | 導流板位樣式編號 | Zone3 |
 | Visit | 導流瀏覽數 | 7 | 
 | Searches | 於HotelsCombined官網搜尋數 | 13 |
 | Click To OTAs | 連結至導流訂房網站(Online Travel Agent)點擊數 | 1 |
