@@ -242,7 +242,7 @@
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
-| Date | 導流日期 | 當下日期 yyyymmdd | 20190205 |
+| Date | 導流日期 yyyymmdd | 20190205 |
 | cookie_hash | Hashed 過的使用者cookie | MdjBU0d98pv72atTbexgKQ== |
 | zone | 導流板位| 3種導流版位樣式編號 | Zone3 |
 | Visit | 導流瀏覽數 | 7 | 
