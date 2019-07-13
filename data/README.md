@@ -230,9 +230,10 @@
 ### 資料範例
 ```json
 {
-"Label": "2019/4/2",
+"Date": "20190402",
 "cookie_hash": "MdjBU0d98pv72atTbexgKQ==",
 "zone": "Zone3",
+"Visit" "1",
 "Searches": "3",
 "Clicks To OTAs": "6",
 "Bookings": "1"
@@ -241,9 +242,10 @@
 ### 資料說明
 | 欄位 | 說明 | 範例 |
 | - | - | - |
+| Date | 導流日期 | 當下日期 yyyymmdd | 20190205 |
 | cookie_hash | Hashed 過的使用者cookie | MdjBU0d98pv72atTbexgKQ== |
-| Visits | 導流瀏覽數 | 7 |
 | zone | 導流板位| 3種導流版位樣式編號 | Zone3 |
+| Visit | 導流瀏覽數 | 7 | 
 | Searches | 於HotelsCombined官網搜尋數 | 13 |
 | Click To OTAs | 連結至導流訂房網站(Online Travel Agent)點擊數 | 1 |
 | Bookings | 於訂房網站的下訂數 | 1 |
