@@ -216,13 +216,13 @@
 | device_marketing | 瀏覽者裝置市場名稱 | GALAXY Note 3 |
 | device_brand | 瀏覽者裝置品牌名稱 | Samsung |
 | cookie_hash | 瀏覽者cookie(經hash處理) | 9242a733685e9610bd0be49462612491 |
-| referrer_host | 瀏覽者來源網站 | www.hotelscombined.com.tw |
+| referrer_host | 瀏覽者來源網站 | car0126.pixnet.net |
 | date | 瀏覽日期 yyyymmdd | 20190327 |
 | hour | 瀏覽時間(小時, UTC / GMT+8) | 3 |
 | cookie_gender | 預測性別分類，包含："男", "女", "不明" | 男 |
 | cookie_age | 預測年齡分類，包含："18-25", "25-35", "35-45", "45-65", "不明" | 45-65 |
 | label | 瀏覽導流頁面地點/飯店名稱 | {"Breadcrumb":["Anho_Hotel"]} |
-| referrer_url | 瀏覽者來源網址 | https://www.hotelscombined.com.tw/Place/Yilan_County.htm |
+| referrer_url | 瀏覽者來源網址 | https://car0126.pixnet.net/blog/post/4388627 |
 
 ## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
 > 這份與上份資料資料透過 cookie_hash 來作為 key 串連，兩者從2019年4月18日開始可串連。資料日期區間：2019/1/7 ~ 2019/7/9
