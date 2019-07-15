@@ -6,7 +6,7 @@
 - [使用者瀏覽log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#%E4%BD%BF%E7%94%A8%E8%80%85%E7%80%8F%E8%A6%BD-log)
 - [使用者點擊log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#%E4%BD%BF%E7%94%A8%E8%80%85%E9%BB%9E%E6%93%8A-log)
 - [Google Search 關鍵字log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#google-search-%E9%97%9C%E9%8D%B5%E5%AD%97-log)
-- [HotelsCombined 導流 log - PIXNET 點擊 logs](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---pixnet-%E9%BB%9E%E6%93%8A-logs)
+- [HotelsCombined 導流 log - PIXNET 點擊 log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---pixnet-%E7%80%8F%E8%A6%BD-logs)
 - [HotelsCombined 導流 log - HotelsCombined 訂單數量資料](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---hotelscombined-%E8%A8%82%E5%96%AE%E6%95%B8%E9%87%8F%E8%B3%87%E6%96%99)
 
 ## PIXNET 文章資料
@@ -38,6 +38,8 @@
 | keyword_top10 | 前10個文章概要關鍵字(tf-idf分數由高到低排序) | [{"tfidf":100.04224,"word":"冰淇淋"},{"tfidf":100.03201,"word":"三星"}, ...(後略)] |
 
 ## 使用者瀏覽 log
+> 日期區間: 20180701 ~ 20190701; 資料格式: newline-delimited JSON
+
 ### 資料範例
 ```json
 {
@@ -92,6 +94,8 @@
 | referrer_url | 瀏覽者來源網址 | http://ya1101.pixnet.net/blog/post/171256641 |
 
 ## 使用者點擊 log
+> 日期區間: 20180701 ~ 20190701; 資料格式: newline-delimited JSON 
+
 ### 資料範例
 ```json
 {
@@ -143,6 +147,8 @@
 | referrer_url | 點擊者來源網址 | http://ab0150009.pixnet.net/blog/post/46740384 |
 
 ## Google Search 關鍵字 log
+> 篩選條件: impression >= 3; 日期區間: 20180701 ~ 20190701; 資料格式: newline-delimited JSON
+
 ### 資料範例
 ```json
 {
@@ -175,7 +181,8 @@
 | category | 文章分類 | 國內旅遊 |
 
 ## HotelsCombined 導流 log - PIXNET 瀏覽 logs
-> 這份與下份資料資料透過 cookie_hash 來作為 key 串連。資料日期區間：2018/10/8 ~ 2019/7/1 
+> 這份與下份資料資料透過 cookie_hash 來作為 key 串連。
+> 日期區間：20181008 ~ 20190701; 資料格式: newline-delimited JSON 
 
 ### 資料範例
 ```json
@@ -225,7 +232,8 @@
 | referrer_url | 瀏覽者來源網址 | https://car0126.pixnet.net/blog/post/4388627 |
 
 ## HotelsCombined 導流 log - HotelsCombined 訂單數量資料
-> 這份與上份資料資料透過 cookie_hash 來作為 key 串連，兩者從2019年4月18日開始可串連。資料日期區間：2019/1/7 ~ 2019/7/9
+> 這份與上份資料資料透過 cookie_hash 來作為 key 串連，兩者從2019年4月18日開始可串連。
+> 資料日期區間：2019/1/7 ~ 2019/7/9; 資料格式: newline-delimited JSON
 
 ### 資料範例
 ```json
@@ -249,3 +257,32 @@
 | Searches | 於HotelsCombined官網搜尋數 | 13 |
 | Click To OTAs | 連結至導流訂房網站(Online Travel Agent)點擊數 | 1 |
 | Bookings | 於訂房網站的下訂數 | 1 |
+
+## ( log 資料限定 ) log 資料內網址對應的文章資料
+> 資料格式: newline-delimited JSON
+
+### 檔案對照表（Google Drive）
+
+| log | 網址欄位 | 網址文章資料檔名 |
+| - | - | - |
+| 使用者瀏覽 log | url | **PIXNET_visit_log_url_articles.gz** |
+| 使用者點擊 log | url | **PIXNET_event_log_url_articles.zip** |
+| Google Search 關鍵字 log| url | **PIXNET_search_log_url_articles.gz** |
+| HotelsCombined 導流 log | referrer_url  | **HotelsCombined_log_referrer_url_articles.zip** |
+
+### 文章資料說明
+
+| 欄位| 說明| 範例 |
+| - | - | - |
+| url | 網頁網址 | http:\\/\\/graceliang0611.pixnet.net\\/blog\\/post\\/222163281 |
+| post_at | 發文時間 timestamp | 1531987200 |
+| post_date | 發文日期 | 2018-07-19T16:00:00+08:00 |
+| author | 文章作者帳號 | graceliang0611 |
+| article_id | 文章id (網址最後面的 int ) | 222163281 |
+| tags | 作者對此篇文章下的標籤 | ["\u91d1\u9580","\u5ec8\u9580"] |
+| title | 文章標題 | 2018\u91d1\u9580\u5ec8\u9580 |
+| content | 內文 HTML | \<img alt=\"IMG_5243.JPG\" src=\"https:\/\/pic.pp> (後略) |
+| hits | 文章被瀏覽數 | 8932 |
+| comment_ids | 評論者會員帳號 | ["graceliang0611","graceliang0611"] |
+| category | 文章類別 | \u570b\u5916\u65c5\u904a |
+| is_spam | 是否為垃圾文章 (0: 不是; 1:是) | 0 |
