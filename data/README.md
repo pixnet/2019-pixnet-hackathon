@@ -8,6 +8,7 @@
 - [Google Search 關鍵字log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#google-search-%E9%97%9C%E9%8D%B5%E5%AD%97-log)
 - [HotelsCombined 導流 log - PIXNET 點擊 log](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---pixnet-%E7%80%8F%E8%A6%BD-logs)
 - [HotelsCombined 導流 log - HotelsCombined 訂單數量資料](https://github.com/pixnet/2019-pixnet-hackathon/blob/master/data/README.md#hotelscombined-%E5%B0%8E%E6%B5%81-log---hotelscombined-%E8%A8%82%E5%96%AE%E6%95%B8%E9%87%8F%E8%B3%87%E6%96%99)
+- [(log 資料限定) log 資料內網址對應的文章資料](https://github.com/pixnet/2019-pixnet-hackathon/tree/master/data#-log-%E8%B3%87%E6%96%99%E9%99%90%E5%AE%9A--log-%E8%B3%87%E6%96%99%E5%85%A7%E7%B6%B2%E5%9D%80%E5%B0%8D%E6%87%89%E7%9A%84%E6%96%87%E7%AB%A0%E8%B3%87%E6%96%99)
 
 ## PIXNET 文章資料
 ### 資料範例
