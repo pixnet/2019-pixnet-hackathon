@@ -11,6 +11,11 @@
 | 文章搜尋 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/blogArticlesSearch) | [範例](https://emma.pixnet.cc/blog/articles/search?format=json&type=tag&key=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | 標籤關注 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/tagFollow) | [範例](https://emma.pixnet.cc/tag/follow?name=%E5%8F%B0%E6%9D%B1%E7%86%B1%E6%B0%A3%E7%90%83) |
 | POI 清單 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/poiList) | [範例](https://emma.pixnet.cc/poi?format=json) |
+| 列出指定邦邦貼文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/topicComments) | |
+| 列出指定 comment\_id 的貼文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/topicComment) | |
+| 在指定的邦邦新增貼文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/topicCommentsCreate) | |
+| 修改指定 comment\_id 的貼文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/topicCommentsUpdate) | |
+| 刪除指定 comment\_id 的貼文 | [文件](https://developer.pixnet.pro/#!/doc/pixnetApi/topicCommentsDelete) | |
 
 #### In Beta
 > 使用上有任何問題，歡迎來信 pixnethacker@pixnet.tw
